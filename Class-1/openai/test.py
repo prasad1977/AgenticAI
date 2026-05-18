@@ -6,7 +6,7 @@ from langchain_core.messages import HumanMessage
 print("Testing Basic LangChain Setup...\n")
 # Initialize LLM
 #os.environ["OPENAI_API_KEY"]="" # Replace with your actual 
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]=""
 
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 # Test 1: Simple query
