@@ -8,6 +8,7 @@ print("Testing Basic LangChain Setup...\n")
 # Initialize LLM
 os.environ["OPENAI_API_KEY"]=""
 
+
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 # Test 1: Simple query
 messages = [HumanMessage(content="Say 'Hello from Google Colab! Agentic AI is working!' in a cheerful way.")]
